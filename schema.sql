@@ -3,7 +3,7 @@
 -- =========================
 
 -- Connect to college-management database
-\c "college-management"
+
 
 -- =========================
 -- Enums
