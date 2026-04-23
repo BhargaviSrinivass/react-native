@@ -10,7 +10,7 @@ import studentRoutes from './routes/studentRoutes.js';
 import facultyRoutes from './routes/facultyRoutes.js';
 import departmentRoutes from './routes/departmentRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
-// Notification routes removed
+import notificationRoutes from './routes/notificationRoutes.js';
 import chatRoutes from './routes/chatRoutes.js';
 
 dotenv.config();
@@ -49,7 +49,7 @@ app.use('/api/student', studentRoutes);
 app.use('/api/faculty', facultyRoutes);
 app.use('/api/department', departmentRoutes);
 app.use('/api/admin', adminRoutes);
-// app.use('/api/notifications', notificationRoutes); // Removed
+app.use('/api/notifications', notificationRoutes);
 app.use('/api/chat', chatRoutes);
 
 // Global error handler
